@@ -1,0 +1,35 @@
+/* img{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    
+} */
+
+/* #carouselExampleFade{
+height: 100vh !important;
+} */
+
+
+.container-fluid {
+    border-bottom: black solid 2px;
+    width: 100%;
+}
+
+.icons{
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+.icons a{
+margin: 20px;
+}
+
+.icons a :hover {
+    /* background-color: blue; */
+    font-size: 20px;
+color: black;
+    /* border-radius: 5px; */
+}
