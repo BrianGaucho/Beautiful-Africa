@@ -8,7 +8,12 @@
 /* #carouselExampleFade{
 height: 100vh !important;
 } */
+.carousel-inner{
+    width: 90rem;
+    height: 50rem;
+    object-fit: cover;
 
+}
 
 .container-fluid {
     border-bottom: black solid 2px;
