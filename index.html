@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaucho</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+    <!-- Navbar -->
+
+<nav class="navbar sticky-top backg navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+      <a class="navbar-brand text-danger" href="#">GNB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#gallary">Galleary</a>
+               </li>
+             <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Show more
+                    </a>
+                 <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Start</a></li>
+                    <li><a class="dropdown-item" href="#">Pay</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Form of payment</a></li>
+                 </ul>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link disabled"></a>
+             </li>
+            </ul>
+         <form class="d-flex" role="search">
+           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-success" type="submit">Search</button>
+         </form>
+        </div>
+   </div>
+</nav>
+
+<br>
+
+
+<!-- carousel -->
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade m-30 h-100vh">
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+          <img src="/Assets/lagos.jpg" class="d-block w-90 h-100" alt="...">
+     </div>
+     <div class="carousel-item">
+          <img src="/Assets/cairo.jpg" class="d-block w-100 h-100" alt="...">
+     </div>
+     <div class="carousel-item">
+         <img src="/Assets/Kigali.jpg" class="d-block w-100 h-100" alt="...">
+     </div>
+     <div class="carousel-item">
+        <img src="/Assets/nairobi-kenya.jpg" class="d-block w-100 h-100" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="/Assets/westie.jpg" class="d-block w-100 h-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+<br>
+
+
+<!-- Cards -->
+
+<div class="container h-500px w-200px">
+    <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem; ">
+                 <img class="img-fluid" src="/Assets/Kisumu.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                    <h5 class="card-title">Kisumu</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#staticBackdrop" class="btn btn-primary">Start</a>
+              </div> 
+           </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+                 <img class="img-fluid" src="/Assets/nakuru-city.jpeg" class="card-img-top" class="d-block w-50 "alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nakuru</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#staticBackdrop" class="btn btn-primary">Start journey</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+                 <img class="img-fluid" src="/Assets/mombasa.jpg" class="card-img-top" class="d-block w-50 "alt="...">
+               <div class="card-body">
+                    <h5 class="card-title">Mombasa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#staticBackdrop" class="btn btn-primary">Start journey</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+                 <img class="img-fluid"src="/Assets/Kakamega.jpg" class="card-img-top" class="d-block w-50 "alt="...">
+                <div class="card-body">
+                     <h5 class="card-title">Kakamega</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#staticBackdrop" class="btn btn-primary">Start journey</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+
+
+<!-- Text -->
+
+<div class="container">
+    <div class="d-flex flex-row justify-content-center">
+        <h1>The Cities in Africa</h1>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero numquam incidunt eius soluta inventore ad ratione, atque aliquid 
+           molestias! Consectetur, et? Quas esse hic perferendis doloremque ad numquam aperiam amet nesciunt placeat perspiciatis nihil error
+           repudiandae quo ab, exercitationem laboriosam eveniet odit sit laudantium omnis sapiente id architecto! Tempora harum ipsum mollitia
+           aliquid facere exercitationem nihil odio vel et recusandae!</p>
+    </div>
+</div>
+
+
+
+<!-- Grid -->
+
+<section id="gallary">
+<div class="container">
+    <div class="row gx-4 gy-4">
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/Tunis.jpg "alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/rabat.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid"src="/Assets/Maputo.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/capetown.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/Dakar.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/dodoma.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12">
+            <img class="img-fluid" src="/Assets/Khartoum_Sudan.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/freee.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/Algiers-Algeria.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/Kisii.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/bamako.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/Kigali.jpg" alt="">
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12">
+            <img class="img-fluid" src="/Assets/lagos.jpg" alt="">
+        </div>
+    </div>
+</div>
+</section>
+
+<br>
+<br>
+
+<!-- Text -->
+
+
+<div class="container">
+    <div class="d-flex flex-row justify-content-center">
+        <h1>Places To Visit To In Africa</h1>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero numquam incidunt eius soluta inventore ad ratione, atque aliquid 
+           molestias! Consectetur, et? Quas esse hic perferendis doloremque ad numquam aperiam amet nesciunt placeat perspiciatis nihil error
+           repudiandae quo ab, exercitationem laboriosam eveniet odit sit laudantium omnis sapiente id architecto! Tempora harum ipsum mollitia
+           aliquid facere exercitationem nihil odio vel et recusandae!</p>
+    </div>
+</div>
+
+
+<!-- Footer -->
+
+<div class="container">
+    <div class="row">
+     <div class="col">
+        <h1>Lagos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, est!</p>
+     </div>
+     <div class="col">
+        <h1>Kigali</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, est!</p>
+     </div>
+     <div class="col">
+        <h1>Tripoli</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, est!</p>
+     </div>
+   </div>
+</div>
+<div class="d-flex flex-row justify-content-center">
+    <div class="row">
+     <div class="icons p-20">
+         <a href="https://github.com/BrianGaucho" target="_blank"><i class="fa-brands fa-github"></i></a> 
+        <a href="https://www.linkedin.com/in/brian-nyamweya-ba1634241/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.twitter.com/in/brian-nyamweya-ba1634241/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/in/brian-nyamweya-ba1634241/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinteret.com/in/brian-nyamweya-ba1634241/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+     </div>
+    </div>
+</div>
+<div class="d-flex flex-row justify-content-center">
+  <p>copyright &copy;2023 Brian nyamweya</p>
+</div>
+
+
+<script src="/js/all.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
