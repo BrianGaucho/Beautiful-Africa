@@ -5,19 +5,36 @@
     
 } */
 
-/* #carouselExampleFade{
-height: 100vh !important;
-} */
-.carousel-inner{
-    width: 90rem;
-    height: 50rem;
-    object-fit: cover;
+nav{
+    /* background-color: grey; */
+    font-weight: bold;
+    background: aliceblue;
+}
 
+nav a:hover{
+    color: green;
+}
+.carousel-inner{
+    align-items: center;
+    justify-content: center;
+    width: 85rem;
+    /* height: 30rem; */
+}
+
+.carousel-inner img{
+    height: 30rem;
+    width: 50rem;
+    object-fit: cover;
 }
 
 .container-fluid {
-    border-bottom: black solid 2px;
-    width: 100%;
+    box-shadow: 5px #000;
+}
+
+.card-img-top{
+    width: 300px;
+    height: 250px;
+    margin: 5px;    
 }
 
 .icons{
