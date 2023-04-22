@@ -4,11 +4,15 @@
     object-fit: cover !important;
     
 } */
+body{
+    background-color: aliceblue;
+}
 
 nav{
     /* background-color: grey; */
     font-weight: bold;
     background: aliceblue;
+    width: 100%;
 }
 
 nav a:hover{
@@ -17,13 +21,31 @@ nav a:hover{
 .carousel-inner{
     align-items: center;
     justify-content: center;
-    width: 85rem;
+    /* width: 82rem; */
     /* height: 30rem; */
 }
 
 .carousel-inner img{
     height: 30rem;
     width: 50rem;
+    object-fit: cover;
+}
+
+.card-body{
+    height: 200px;
+  /* overflow: hidden;
+    object-fit: cover;   */
+}
+
+.conts{
+    background-color: #173f52;
+    height: 450px;
+    /* margin-bottom: 10px; */
+}
+
+.conts .container .card img{
+    width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -36,6 +58,10 @@ nav a:hover{
     height: 250px;
     margin: 5px;    
 }
+
+/* .citi{
+    margin-top: 300px;
+} */
 
 .icons{
     font-size: 25px;
